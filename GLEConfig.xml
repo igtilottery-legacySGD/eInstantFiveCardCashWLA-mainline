@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <family code="2207" desc="Lottery Game" studio="interactive" organizationName="Interactive">
         <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
-        <game name="Five Card Poker WLA" version="1.0.12" gameengineversion="2" gamelogicversion="1.0"
+        <game name="Five Card Poker WLA" version="1.0.13" gameengineversion="2" gamelogicversion="1.0"
               number="0"
               jackpotid=""
               gametype="L"
@@ -11,7 +11,7 @@
               spots=""
               productId="1"
               gamegroup="eGames"
-              languages="en,en_US,nb_NO,pl_PL,de_BE,fr_BE,nl_BE"
+              languages="en,en_US,nb_NO,pl_PL,de_BE,fr_BE,nl_BE,en_LU,fr_LU"
               skbPlatformVersion="1.4.0"
               merchandisePrize="N"
               stateful="N">   
@@ -81,6 +81,17 @@
 
             <paymodelConfig modelid="300-2207-006" clienttype="HTML" configcode="IXML"/>
             <paymodelConfig modelid="300-2207-006" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- LUX -->
+            <paymodel modelid="300-2207-007"  revealId="4548" revealVersionId="4542"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Five Card Poker WLA : 300-2207-007"
+                      hibethold="42.00" lobethold="42.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2207-007" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2207-007" clienttype="HTML" configcode="PHLP"/>
 
             <!-- ZER 50c, $2, $5 & $10 -->
             <!--<paymodel modelid="300-2207-099"  revealId="2207" revealVersionId="2207"
